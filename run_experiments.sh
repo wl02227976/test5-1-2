@@ -2,7 +2,7 @@
 
 # Script to reproduce results
 
-for ((i=1;i<6;i+=1))
+for ((i=4;i<6;i+=1))
 do 
 	python main.py \
 	--policy "TD3" \
